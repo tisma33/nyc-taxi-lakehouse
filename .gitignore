@@ -1,14 +1,10 @@
-# Données brutes Kaggle mono ou multi-datasets (volumineuses, hors dépôt Git)
-data_raw/*
-!data_raw/.gitkeep
-
-# Artefacts Python / Jupyter / Spark locaux
 __pycache__/
 *.py[cod]
+*$py.class
 .ipynb_checkpoints/
-.ruff_cache/
-.pytest_cache/
 spark-warehouse/
 metastore_db/
 derby.log
-.venv/
+.DS_Store
+*.log
+data_raw/
